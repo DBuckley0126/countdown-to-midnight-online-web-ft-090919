@@ -2,7 +2,7 @@
 require 'pry'
 def countdown (interger)
   number = interger
-  binding.pry
+#  binding.pry
   while number > 0
     puts "#{number} SECOND(S)!"
     number -= 1
